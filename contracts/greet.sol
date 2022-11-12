@@ -6,9 +6,6 @@ import "hardhat/console.sol";
 contract greet {
     uint256 amountOfGreetings;
 
-    constructor() {
-    }
-
     function greetings() public {
         amountOfGreetings +=1;
     }
