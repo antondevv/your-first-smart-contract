@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-ethers")
 const ALCHEMY_API_KEY = "your alchemy api key"
 const GOERLI_PRIVATE_KEY =
-  "your secret privat Goerli wallet key, never show this to anyone, and do not push it to github"
+  "your privat key from MetaMask, never show this to anyone, and do not push it to github"
 
 module.exports = {
   solidity: "0.8.9",
